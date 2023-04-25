@@ -2,6 +2,7 @@
 
 - [In this Section](#in-this-section)
 - [Updates](#updates)
+  - [March 2023](#march-2023)
   - [February 2023](#february-2023)
   - [January 2023](#january-2023)
   - [December 2022](#december-2022)
@@ -50,10 +51,18 @@ This article will be updated as and when changes are made to the above and anyth
 
 Here's what's changed in Enterprise Scale/Azure Landing Zones:
 
+### March 2023
+
+#### Policy
+
+- Deprecated the following ALZ policy: [Deny-MachineLearning-Compute-SubnetId](https://www.azadvertizer.net/azpolicyadvertizer/Deny-MachineLearning-Compute-SubnetId.html)
+
 ### February 2023
 
 #### Policy
 
+- Updated `Deploy-Diagnostics-Databricks.json` policy with missing log categories
+- Updated `Deploy-Diagnostics-PostgreSQL.json` policy to include setting Diagnostic Settings on PostgreSQL flexible server
 - Updated `Deploy-Diagnostics-Website.json` policy to set Diagnostic Settings based on the AppService plan, as the Premium Tier has more categories available.
 - Removed duplicated category entry from `Deploy-Diagnostics-VNetGW.json` policy.
 
