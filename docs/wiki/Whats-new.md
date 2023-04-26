@@ -133,14 +133,15 @@ Note that a number of initiatives have been updated that will fail to deploy if 
 - Deprecated `Deny-RDP-From-Internet` and added new policy `Deny-MgmtPorts-From-Internet` which is more flexible and blocks port 22 and 3389 by default
 - Updated the initiative `Deny-PublicPaaSEndpoints` to include additional policies available to block public access for PaaS services
   - Updated [storage](https://www.azadvertizer.net/azpolicyadvertizer/b2982f36-99f2-4db5-8eff-283140c09693.html) and [Key Vault](https://www.azadvertizer.net/azpolicyadvertizer/405c5871-3e91-4644-8a63-58e19d68ff5b.html) to use new policies using the `/publicNetworkAccess` alias
-- Added new policy to inintiative that enablies diagnostic settings for VWAN S2S and added as part of diagnostic settings policy initiative.
+- Added new policy to initiative that enables diagnostic settings for VWAN S2S and added as part of diagnostic settings policy initiative.
 - Updated ALZ Policies wiki:
   - Removed the "Version" column to improve readability.
-  - Added the option to download an Excel file with all the policy/initiative assigments.
-- Update ALZ Policies wiki: Excel file with all the policy/initiative assigments.
+  - Added the option to download an Excel file with all the policy/initiative assignments.
+- Update ALZ Policies wiki: Excel file with all the policy/initiative assignments.
 - Renamed Policies from `WVD` to `AVD` - Display names and Descriptions only
 - Update the `Deploy SQL Database built-in SQL security configuration` initiative to point to the built-in policy [Deploy SQL DB transparent data encryption](https://www.azadvertizer.net/azpolicyadvertizer/86a912f6-9a06-4e26-b447-11b16ba8659f.html) instead of the deprecated custom policy `Deploy SQL Database built-in SQL security configuration`.
 - Update policy [Append-Redis-disableNonSslPort](https://www.azadvertizer.net/azpolicyadvertizer/Append-Redis-disableNonSslPort.html): remove not applicable 'modify' effect.
+- Update ALZ Policies Wiki to include guidance around the use of managed identities with the ALZ Policy Initiative.
 
 ##### Retire
 
