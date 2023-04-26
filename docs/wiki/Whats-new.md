@@ -113,6 +113,7 @@ Note that a number of initiatives have been updated that will fail to deploy if 
 - Add new Azure Policy Initiative and assignment [(Audit-UnusedResourcesCostOptimization)](https://www.azadvertizer.net/azpolicyinitiativesadvertizer/Audit-UnusedResourcesCostOptimization.html), at the intermediate root management group (e.g. `contoso`), to audit unused resources that are driving costs.
 - Added new assignment to deny deployment of virtual machines and virtual machine scale sets using unmanaged OS disks.
 - Added a policy assignment to deny Classic resources at the `Intermediate Root` management group
+- Added guidance around managed identities that are included in the ALZ Policy Initiative assignments.
 
 ##### Update
 
