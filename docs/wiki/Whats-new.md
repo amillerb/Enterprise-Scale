@@ -147,12 +147,12 @@ Note that a number of initiatives have been updated that will fail to deploy if 
 - Added new policy to inintiative that enablies diagnostic settings for VWAN S2S and added as part of diagnostic settings policy initiative.
 - Updated ALZ Policies wiki:
   - Removed the "Version" column to improve readability.
-  - Added the option to download an Excel file with all the policy/initiative assigments.
-- Update ALZ Policies wiki: Excel file with all the policy/initiative assigments.
+  - Added the option to download an Excel file with all the policy/initiative assignments.
+- Update ALZ Policies wiki: Excel file with all the policy/initiative assignments.
 - Renamed Policies from `WVD` to `AVD` - Display names and Descriptions only
 - Update the `Deploy SQL Database built-in SQL security configuration` initiative to point to the built-in policy [Deploy SQL DB transparent data encryption](https://www.azadvertizer.net/azpolicyadvertizer/86a912f6-9a06-4e26-b447-11b16ba8659f.html) instead of the deprecated custom policy `Deploy SQL Database built-in SQL security configuration`.
 - Update policy [Append-Redis-disableNonSslPort](https://www.azadvertizer.net/azpolicyadvertizer/Append-Redis-disableNonSslPort.html): remove not applicable 'modify' effect.
->>>>>>> dbed240d7ccc411334be5fd1fd2092829deceb20
+- Update ALZ Policies Wiki to include guidance around the use of managed identities with the ALZ Policy Initiative.
 
 ##### Retire
 
